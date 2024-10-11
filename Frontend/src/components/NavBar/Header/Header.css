@@ -1,0 +1,6 @@
+.header{
+    height: 35vw;
+    margin: 40px auto;
+    background: url('./header_img.jpg') no-repeat;
+    background-size:cover ;
+}
