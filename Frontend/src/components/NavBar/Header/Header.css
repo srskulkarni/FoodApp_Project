@@ -1,6 +1,37 @@
 .header{
-    height: 35vw;
+    height: 45vw;
     margin: 40px auto;
     background: url('./header_img.jpg') no-repeat;
     background-size:cover ;
+    border-radius: 50px;
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 45%;
+    left: 15vw;
+    animation: fadeIn 4s;
+}
+.header-contents h2{
+    font-weight: 500;
+    color: black;
+    font-size: max(3.5vw, 25px);
+}
+.header-contents p{
+    color: black;
+    font-size: 1.3vw;
+}
+.header-contents button{
+    border:none;
+    color:antiquewhite ;
+    padding: 1vw 2.3vw;
+    font-weight: 600;
+    background-color: rgb(206, 31, 83);
+    font-size: max(5vw 20px);
+    border-radius: 50px;
+    cursor:pointer ;
 }
