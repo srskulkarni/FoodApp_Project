@@ -4,9 +4,11 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .NavBar.logo{
     width: 150px;
 }
+
 .NavBar-menu{
     display: flex;
     list-style: none;
@@ -14,11 +16,13 @@
     color:rgb(182, 58, 95);
     font-size: 18px;
 }
+
 .NavBar-right{
     display: flex;
     align-items: center;
     gap: 50px ;
 }
+
 .NavBar button{
     background: rgb(221, 101, 137);
     font-size: 20px;
@@ -29,19 +33,24 @@
     cursor: pointer;
     transition: 0.2s;
 }
+
 .NavBar button:hover{
     background-color: rgb(3, 1, 1);
 }
+
 .NavBar li.active{
     padding-bottom: 2px;
     border-bottom: 2px solid black !important;
 }
+
 .NavBar li{
     cursor: pointer;
 }
+
 .NavBar-search-icon{
     position: relative;
 }
+
 .NavBar-search-icon .dot{
     position: absolute;
     min-width: 10px;
@@ -51,3 +60,45 @@
     top: -8px;
     right: -8px;
 }
+@media(max-width:1050px){
+    .NavBar.logo{
+        width: 140px;
+    }
+    .NavBar-menu{
+        gap: 20px;
+        font-size: 17px;
+    }
+    .NavBar-right{
+        gap: 30px;
+    }
+    .NavBar-right img{
+        width: 22px;
+    }
+    .NavBar-right button{
+        padding: 8px 25px;
+    }
+}
+@media(max-width:900px){
+    .NavBar.logo{
+        width: 120px;
+    }
+    .NavBar-menu{
+        gap: 15px;
+        font-size: 16px;
+    }
+    .NavBar-right{
+        gap: 20px;
+    }
+    .NavBar-right img{
+        width: 20px;
+    }
+    .NavBar-right button{
+        padding: 7px 20px;
+        font-size: 15px;
+    }
+}
+@media(max-width:750px){
+    .NavBar-menu{
+        display: none;
+    }
+} 
