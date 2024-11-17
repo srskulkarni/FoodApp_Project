@@ -19,7 +19,7 @@ const Footer = () => {
                 <h2>Get In Touch</h2>
                 <ul>
                     <li>+1(631)406-0818</li>
-                    <li>rasukin@blackpanrestaurant.com</li>
+                    <li>owner@blackpanrestaurant.com</li>
                 </ul>
             </div>
             <div className="footer-content-center">
