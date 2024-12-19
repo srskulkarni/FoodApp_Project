@@ -11,16 +11,18 @@ const port  = 4000
 // middelware
 
 app.use(express.urlencoded({ extended: true }));
-app.use(express.json())
-app.use(cors())
+app.use(express.json());
+app.use(cors());
 
 //db connection
 connectDB();
 
 // api endpoints
-app.use('/api/food', foodRouter)
+app.use('/api/food', foodRouter);
+app.use('/images', express.static('uploads'));
 
 app.get("/", (req,res)=>{
+    console.log('hello world!')
     res.send("API Working")
 })
 

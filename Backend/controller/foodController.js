@@ -1,23 +1,27 @@
-import foodModel from "../models/foodModel.js";
-import fs from 'fs'
+import foodModel from '../models/foodModel.js';
 
-const addFood = async(req,res) => {
-    let image_filename = `${req.file.filename}`;
+const addFood = async (req, res) => {
+    if (!req.file) {
+        return res.status(400).json({ success: false, message: 'File upload failed' });
+    }
+
+    // const image_filename = req.file.filename;
 
     const food = new foodModel({
-        full_name : req.body.full_name,
-        description : req.body.description,
-        price : req.body.price,
-        category : req.body.category,
-        image : image_filename
-    })
-    try{
-        await food.save();
-        res.json({success:true, message:'Food Added'})
-    } catch(error){
-        console.error()
-        res.json({success:false, message:'Error'})
-    }
-}
+        name: req.body.name,
+        description: req.body.description,
+        price: req.body.price,
+        category: req.body.category,
+        image: req.file.filename,
+    });
 
-export {addFood}
+    try {
+        await food.save();
+        res.json({ success: true, message: 'Food Added' });
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({ success: false, message: 'Error saving food' });
+    }
+};
+
+export { addFood };
