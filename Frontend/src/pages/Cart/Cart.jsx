@@ -4,7 +4,7 @@ import { StoreContext } from '../../context/StoreContext'; // Correctly import c
 import { useNavigate } from 'react-router-dom';
 
 const Cart = () => {
-  const { cartItems, removeFromCart, food_list,getTotalCartAmount } = useContext(StoreContext); // Access values from context
+  const { cartItems, removeFromCart, food_list,getTotalCartAmount,url } = useContext(StoreContext); // Access values from context
   const navigate = useNavigate()
   console.log("cartItems from context:", cartItems); // Debugging
 
@@ -27,7 +27,7 @@ const Cart = () => {
             return (
               <div>
                 <div key={item._id} className="cart-items-title cart-items-item">
-                  <img src={item.image} alt="" />
+                  <img src={url+"/images"+item.image} alt="" />
                   <p>{item.name}</p>
                   <p>${item.price}</p>
                   <p>{quantity}</p>

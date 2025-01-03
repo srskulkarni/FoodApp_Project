@@ -83,7 +83,7 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salads",
+        menu_name: "Salad",
         menu_image: menu_1
     },
     {
@@ -118,33 +118,33 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek Salads",
+        name: "Greek Salad",
         image: food_1,
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salads"
+        category: "Salad"
     },
     {
         _id: "2",
-        name: "Veg Salads",
+        name: "Vegan Salad",
         image: food_2,
         price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salads"
+        category: "Salad"
     }, {
         _id: "3",
-        name: "Clover Salads",
+        name: "Clover Salad",
         image: food_3,
         price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salads"
+        category: "Salad"
     }, {
         _id: "4",
-        name: "Chicken Salads",
+        name: "Chicken Salad",
         image: food_4,
         price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salads"
+        category: "Salad"
     }, {
         _id: "5",
         name: "Lasagna Rolls",
@@ -168,7 +168,7 @@ export const food_list = [
         category: "Rolls"
     }, {
         _id: "8",
-        name: "Veg Rolls",
+        name: "Vegan Rolls",
         image: food_8,
         price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
