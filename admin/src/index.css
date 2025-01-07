@@ -11,7 +11,7 @@
   display: none;
 }
 body{
-  min-height: 100vw;
+  min-height: 100vh;
   background-color: #f8f9fa;
 }
 
@@ -33,13 +33,6 @@ hr{
 .app-content {
   display: flex;
 }
-
-@media (max-width:900px) {
-  .sidebar-option p{
-    display: none;
-  }
-}
-
 .flex-col{
   display: flex;
   flex-direction: column;
@@ -47,4 +40,10 @@ hr{
 }
 .cursor{
   cursor: pointer;
+}
+
+@media (max-width:900px) {
+  .sidebar-option p{
+    display: none;
+  }
 }

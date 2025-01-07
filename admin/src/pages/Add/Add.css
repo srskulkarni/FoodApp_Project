@@ -25,6 +25,7 @@
     border: 2px solid black;
 }
 .add-product-description textarea{
+    padding: 30px;
     width: 100%;
     height: 150px;
     box-sizing: border-box;

@@ -2,6 +2,7 @@ import React from 'react'
 import './Sidebar.css'
 import { assets } from '../../assets/assets'
 import {NavLink} from 'react-router-dom'
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
@@ -14,7 +15,7 @@ const Sidebar = () => {
           <img src={assets.order_icon} alt=" " />
           <p className="sidebar-text">List Items</p>
         </NavLink>
-        <NavLink to="/order" className="sidebar-option">
+        <NavLink to="/orders" className="sidebar-option">
           <img src={assets.order_icon} alt=" " />
           <p className="sidebar-text">Orders</p>
         </NavLink>
@@ -23,4 +24,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar
+export default Sidebar;

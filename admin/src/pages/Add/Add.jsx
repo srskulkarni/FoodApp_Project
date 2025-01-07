@@ -8,9 +8,9 @@ const Add = ({url}) => {
     //const url = 'http://localhost:4000' ;
     const [image,setImage] = useState(false);
     const [data,setData] = useState({
-      name:" ",
-      description:" ",
-      price:" ",
+      name:"",
+      description:"",
+      price:"",
       category:'Salad',
     })
 
@@ -49,14 +49,14 @@ const Add = ({url}) => {
   return (
     <div className='add'>
       <form className="flex-col" onSubmit={onSubmitHandler}>
-        <div className="add-img-upload">
+        <div className="add-img-upload flex-col">
           <p>Upload Image</p>
           <label htmlFor="image">
             <img src={image?URL.createObjectURL(image) : assets.upload_area} alt="" />
           </label>
-          <input onChange={(e)=>setImage(e.target.files[0])}type="file" id='image' hidden />
+          <input onChange={(e)=>setImage(e.target.files[0])} type="file" id='image' hidden />
         </div>
-        <div className="add-product-name">
+        <div className="add-product-name flex-col">
           <p>Product Name</p>
           <input onChange= {onChangeHandler} value ={data.name} type="text" name ='name' placeholder='Type here'/>
         </div>
@@ -80,7 +80,7 @@ const Add = ({url}) => {
           </div>
           <div className="add-price flex-col">
             <p>Product Price</p>
-            <input onChange= {onChangeHandler} value ={data.price} type="number" name='price' placeholder='$20' />
+            <input onChange= {onChangeHandler} value ={data.price} type="Number" name='price' placeholder='$20' />
           </div>
         </div>
         <button type='submit' className='add-button' >ADD</button>

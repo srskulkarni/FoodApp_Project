@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const Cart = () => {
   const { cartItems, removeFromCart, food_list,getTotalCartAmount,url } = useContext(StoreContext); // Access values from context
   const navigate = useNavigate()
-  console.log("cartItems from context:", cartItems); // Debugging
+  //console.log("cartItems from context:", cartItems); // Debugging
 
   return (
     <div className='cart'>
@@ -27,7 +27,7 @@ const Cart = () => {
             return (
               <div>
                 <div key={item._id} className="cart-items-title cart-items-item">
-                  <img src={url+"/images"+item.image} alt="" />
+                  <img src={`${url}/images/${item.image}`} alt="" />
                   <p>{item.name}</p>
                   <p>${item.price}</p>
                   <p>{quantity}</p>
@@ -59,7 +59,7 @@ const Cart = () => {
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
           </div>
-          <button onClick={()=>navigate('/Order')}>Proceed to Checkout</button>
+          <button onClick={()=>navigate('/order')}>Proceed to Checkout</button>
         </div>
         <div className='cart-promocode'>
           <div>
