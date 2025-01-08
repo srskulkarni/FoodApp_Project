@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './components/NavBar/Navbar'
-import Sidebar from './components/sidebar/sidebar'
+import Sidebar from './components/Sidebar/Sidebar'
 import Add from './pages/Add/Add'
 import List from './pages/List/List'
 import Order from './pages/Order/Order'
