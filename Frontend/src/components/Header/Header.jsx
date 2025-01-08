@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header_img" style={{
       height: '45vw',
       margin: '40px auto',
-      background: `url(${headerImg}) no-repeat center center`,
+      background: `url(${assets.header_img}) no-repeat center center`,
       backgroundSize: 'cover',
       borderRadius: '50px',
     }}>
