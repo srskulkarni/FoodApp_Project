@@ -1,7 +1,6 @@
 .header{
     height: 45vw;
     margin: 40px auto;
-    background: url('./header_img.jpg') no-repeat;
     background-size:cover ;
     border-radius: 50px;
 }
