@@ -6,7 +6,7 @@ import Cart from './pages/Cart/Cart'
 import Footer from './components/Footer/Footer'
 import LogPop from './components/LogPop/LogPop'
 import PlaceOrder from './pages/PlaceOrder/PlaceOrder'
-import Verify from './pages/Verify/verify'
+import Verify from './pages/Verify/Verify'
 import MyOrders from './pages/MyOrders/MyOrders'
 const App = () => {
 
