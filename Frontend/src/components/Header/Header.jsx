@@ -5,7 +5,7 @@ import {assets} from '../../assets/assets'
 const Header = () => {
   return (
     <div className="header_img" style={{
-      height: '45vw',
+      height: '35vw',
       margin: '40px auto',
       background: `url(${assets.header_img}) no-repeat center center`,
       backgroundSize: 'cover',
@@ -14,8 +14,7 @@ const Header = () => {
       <div className='header'>
       <div className="header-contents">
         <h2>Order your favourite food here! </h2>
-        <p> Choose from a diverse menu featuring delectable array of dishes crafted with the finest ingredients and culinary expertise.</p>
-        <button> View Menu </button>
+        <a href='#explore-menu' className= 'button'> View Menu </a>
       </div>
     </div>
     </div>

@@ -16,20 +16,17 @@
     animation: fadeIn 4s;
 }
 .header-contents h2{
-    font-weight: 500;
+    font-weight: 600;
     color: black;
-    font-size: max(3.5vw, 25px);
+    font-size: max(3.5vw, 35px);
 }
-.header-contents p{
-    color: black;
-    font-size: 1.3vw;
-}
-.header-contents button{
+
+a.button{
     border:none;
     color:antiquewhite ;
     padding: 1vw 2.3vw;
     font-weight: 600;
-    background-color: rgb(206, 31, 83);
+    background-color: blueviolet;
     font-size: max(5vw 20px);
     border-radius: 50px;
     cursor:pointer ;
@@ -42,11 +39,7 @@
         max-width: 45%;
     }
 }
-@media(max-width:1050px){
-    .header-contents{
-        max-width: 45%;
-    }
-}
+
 @media(max-width:750px){
     .header-contents{
         max-width: 65%;

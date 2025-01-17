@@ -2,7 +2,7 @@
     width: 162%;
     margin: auto;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px rgb(238, 191, 252);
+    box-shadow: 5px 5px 10px rgb(218, 215, 219);
     transition: 0.5s;
     animation: fadeIn 2s;
 }
@@ -32,7 +32,7 @@
     font-size: 15px;
 }
 .food-item-price{
-    color:rgb(221, 101, 137);
+    color:rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;
@@ -57,7 +57,7 @@
     gap: 10px;
     padding: 6px;
     border-radius: 50px;
-    background-color: rgb(248, 155, 192);
+    background-color: blueviolet;
 }
 .food-item-counter img{
     width: 30px;

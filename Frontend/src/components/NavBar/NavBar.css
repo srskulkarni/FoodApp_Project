@@ -13,7 +13,7 @@
     display: flex;
     list-style: none;
     gap: 20px;
-    color:rgb(182, 58, 95);
+    color:blueviolet;
     font-size: 18px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .NavBar button{
-    background: rgb(221, 101, 137);
+    background: blueviolet;
     font-size: 20px;
     color: rgb(255, 255, 255);
     border: 3px rgb(0, 1, 5);
@@ -55,7 +55,7 @@
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: rgb(172, 0, 120);
+    background-color: blueviolet;
     border-radius: 5px;
     top: -8px;
     right: -8px;

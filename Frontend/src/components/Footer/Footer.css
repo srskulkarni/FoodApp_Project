@@ -1,5 +1,5 @@
 .footer {
-    color: bisque;
+    color: whitesmoke;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@
 
 .footer-content-left h2,
 .footer-content-right h2 {
-    color: bisque;
+    color: whitesmoke;
 }
 
 .footer-social-icons img {
@@ -48,7 +48,7 @@
     width: 100%;
     width: 2px;
     height: 20px 0;
-    background-color: bisque;
+    background-color: whitesmoke;
     border: none;
 }
 
