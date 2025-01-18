@@ -43,7 +43,7 @@ The app bridges the gap between customers, restaurants, and delivery partners wi
 1. **Dynamic Role Management:**  
    Designed flexible user roles with tailored dashboards for each type of user.  
 2. **Real-Time Updates:**  
-   Implemented live status updates for orders using **Socket.IO**.  
+   Implemented live status updates for orders using **Toastify**.  
 3. **Payment Integration:**  
    Securely integrated **Stripe** to handle multiple payment scenarios.  
 4. **Efficient API Design:**  
