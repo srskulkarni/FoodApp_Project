@@ -1,7 +1,7 @@
 # 🍴 Full-Stack Food Delivery Website  
 
 **Deployed Demo:** [Live Demo on Render](https://your-render-url.com)  
-*(Feel free to explore the website as a customer or a restaurant admin!)*
+*(Feel free to explore the website as a customer or a restaurant admin!)*  
 
 ---
 
@@ -19,7 +19,8 @@ The app bridges the gap between customers, restaurants, and delivery partners wi
 - **Customer Dashboard**:  
   Browse menus, add items to the cart, and place orders.  
 - **Restaurant Panel**:  
-  Manage menu items, track orders, and update delivery statuses.  
+  Manage menu items, track orders, and update delivery statuses.
+  [Live Demo on Render as Restaurant admin](https://foodapp-admin-tluo.onrender.com) 
 - **Secure Payments**:  
   Integrated with **Stripe** for smooth checkout experiences.  
 - **Authentication**:  
