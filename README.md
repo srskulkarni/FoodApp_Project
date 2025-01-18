@@ -1,6 +1,6 @@
 # 🍴 Full-Stack Food Delivery Website  
 
-**Deployed Demo:** [Live Demo on Render](https://your-render-url.com)  
+**Deployed Demo:** [Live Demo on Render](https://foodapp-frontend-fltb.onrender.com)  
 *(Feel free to explore the website as a customer or a restaurant admin!)*  
 
 ---
