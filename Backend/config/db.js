@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-require('dotenv').config();
+//require('dotenv').config();
 const mongoKey = process.env.MONGO_DB_KEY;
 
 export const connectDB = async() => {
