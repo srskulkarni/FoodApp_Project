@@ -1,7 +1,7 @@
 import orderModel from "../models/orderModel.js";
 import userModel from "../models/userModel.js";
 import  Stripe from "stripe";
-require('dotenv').config();
+//require('dotenv').config();
 //import session_url from '/Users/srushti.kulkarni/Desktop/FoodApp/Frontend/src/pages/PlaceOrder/PlaceOrder.jsx'
 
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
