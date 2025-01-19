@@ -2,7 +2,7 @@ import userModel from '../models/userModel.js';
 import jwt from 'jsonwebtoken';
 import bcryptjs from 'bcryptjs';
 import validator from 'validator';
-require('dotenv').config();
+//require('dotenv').config();
 
 const loginUser = async(req,res) =>{
     const {email,password} =req.body;
